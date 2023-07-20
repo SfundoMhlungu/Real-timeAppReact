@@ -16,6 +16,7 @@ src/Components/Dashboard
 src/Components/learning
 src/Hooks/Dashboard
 src/Hooks/Realtime/useBar.ts
+src/Threads
 
 # Editor directories and files
 .vscode/*

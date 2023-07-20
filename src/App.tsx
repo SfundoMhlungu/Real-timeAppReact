@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import RealTime from './Components/Realtime'
-import GettingStarted from './Components/learning/chartjs/gettingstarted'
+
 
 function App() {
  
@@ -13,7 +13,7 @@ function App() {
   return (
     <div style={{width: "100%", height: "100%", display:"flex"}}>
        <RealTime/>
-       {/* <GettingStarted/> */}
+    
 
        
     </div>
