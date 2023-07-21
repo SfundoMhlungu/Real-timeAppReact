@@ -4,6 +4,7 @@ import GettingStarted from "../learning/chartjs/gettingstarted"
 import Table from "../Table"
 import Timeseries from "./Series"
 import Statscard from "./Stats"
+import MuiTable from "../MUITable" 
 
 const RealTime:React.FC = ()=> {
 
@@ -71,7 +72,8 @@ const RealTime:React.FC = ()=> {
                 </div>
 
                 <div style={{flex: 1, display: "flex", height: "100%", alignItems: "center", justifyContent: "center"}}>
-                { data_.length !== 0 && cols && <Table data={data_} columns={cols}/>} 
+                {/*{ data_.length !== 0 && cols && <Table data={data_} columns={cols}/>} */}
+                   <MuiTable data={data_}/>
                 </div>
               
              
